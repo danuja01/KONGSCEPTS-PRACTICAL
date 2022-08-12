@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const employee = require("./routes/employee");
+const users = require("./routes/userAuth");
 
 require("dotenv").config();
 
@@ -16,6 +17,7 @@ app.use((req, res, next) => {
 
 //routes
 app.use("/employee", employee);
+app.use("/auth", users);
 
 //connect to db
 mongoose

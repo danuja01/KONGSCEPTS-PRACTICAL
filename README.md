@@ -14,7 +14,7 @@
 
 ```
 PORT=4000
-MONGO_URI=mongodb+srv://admin:admin@kongcepts-db.uzgvw2f.mongodb.net/?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://[user]:[pass]@kongcepts-db.uzgvw2f.mongodb.net/?retryWrites=true&w=majority
 ```
 
 ## 2.Seting up the frontend
